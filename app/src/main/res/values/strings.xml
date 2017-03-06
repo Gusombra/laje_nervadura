@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laje_Nervurada</string>
+    <string-array name="aco">
+        <item>"Escolha o aço"</item>
+        <item>"25"</item>
+        <item>"50"</item>
+        <item>"60"</item>
+    </string-array>
+</resources>

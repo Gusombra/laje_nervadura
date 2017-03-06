@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="MATERIAIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtvmateriais"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="  Aço  CA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvaço"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/spinneraço"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="  FCK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvfck"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edttxtfck"
+                android:layout_width="142dp" />
+        </LinearLayout>
+
+        <TextView
+            android:text="DIMENSÕES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtvdimensoes"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+
+
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="  Vão Principal (x)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvvaox"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:hint="Vão x (cm)"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edttxtvaox"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="  Vão Secundário (y)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvvaoy"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:hint="Vão y (cm)"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edttxtvaoy"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:text="SEÇÃO TRANSVERSAL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtvsecao"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/secaolagejpg"
+            android:id="@+id/imagemsecao" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="a"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/edttxta"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="b"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/edttxtb"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="hf"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/edttxthf"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="bw"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/edttxtbw"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="hw"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/edttxthw"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="bf"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/edttxtbf"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:text="CARREGAMENTO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:id="@+id/textView8" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="  Permanente (KN/m²)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvpermanente"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edttxtpermanente"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="  Variavel (KN/m²)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtvvariavel"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edttxtvariavel"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALCULAR"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/btcalcular"
+            android:onClick="CalcularTudo" />
+
+    </LinearLayout>
+</ScrollView>
