@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Laje_Nervurada.iml" filepath="$PROJECT_DIR$/Laje_Nervurada.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laje_nervadura.iml" filepath="$PROJECT_DIR$/laje_nervadura.iml" />
     </modules>
   </component>
 </project>

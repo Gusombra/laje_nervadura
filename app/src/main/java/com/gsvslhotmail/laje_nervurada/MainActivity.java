@@ -1,34 +1,12 @@
 package com.gsvslhotmail.laje_nervurada;
 
-import android.icu.text.DecimalFormat;
-import android.icu.text.NumberFormat;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-
-import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxta;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtb;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtbf;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtbw;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtfck;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxthf;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxthw;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtpermanente;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtvaox;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtvaoy;
-import static com.gsvslhotmail.laje_nervurada.R.id.edttxtvariavel;
 
 
 public class MainActivity extends AppCompatActivity {

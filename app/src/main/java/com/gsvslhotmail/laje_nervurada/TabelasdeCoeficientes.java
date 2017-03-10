@@ -1,15 +1,12 @@
 package com.gsvslhotmail.laje_nervurada;
 
-/**
- * Created by Usuário on 01/03/2017.
- */
 
 public class TabelasdeCoeficientes {
 
     public double arredondar(double lambda) {
         String s = "" + lambda;
 
-        String split[] = new String[s.length()];
+        String split[];
         split = s.split("");
 
         if (split.length == 3)
