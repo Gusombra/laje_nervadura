@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -96,6 +97,17 @@ public class MainActivity extends AppCompatActivity {
                     dialogo.setMessage("O resultado é: " + lambda);
                     dialogo.setNeutralButton("Ok", null);
                     dialogo.show();
+                    /*
+                    EXEMPLO DE USO DA FUNÇÃO:
+                    double vetorComOsCoeficientes = TabelasdeCoeficientes.getCoeficientes(lambda)
+
+                    Em vetorComOsCoeficientes tu vai ter um array contendo os coeficientes. Para
+                    usá-los, basta acessar como qualquer vetor:
+                    o primeiro coeficiente estará em vetorComOsCoeficientes[0],
+                    o segundo coeficiente estará em vetorComOsCoeficientes[1]
+                    etc.
+                    :)
+                     */
                 }
             }
 
