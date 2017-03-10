@@ -20,12 +20,13 @@ class TabelasdeCoeficientes {
     /**
      * Recebe um valor lambda e retorna a linha contendo os coeficientes correspondentes
      * @param lambda valor lambda
-     * @return vetor de doubles contendo os coeficientes
+     * @return vetor de doubles contendo os coeficientes, ou null se não houver valor de lambda
+     * na tabela.
      */
     static double[] getCoeficientes(double lambda){
         System.out.println("Tamanho: " + coeficientes.length);
         for(int i = 0; i < coeficientes.length; i++){
-            if(coeficientes[i][0] > lambda){
+            if(coeficientes[i][0] >= lambda){
                 return coeficientes[i];
             }
         }
